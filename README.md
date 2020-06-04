@@ -4,7 +4,7 @@ Web Programming with Python and JavaScript
 
 In these project I tried to create replica's of CS50 course pages on EdX.
 
-##Project structure
+## Project structure
 - project0 ( main directory )
   - scss  ( contains scss files )
   - css   ( contains css files)
