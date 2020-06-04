@@ -19,20 +19,22 @@ section{
   background-color:gray;
 }
 /* Adding onHover style to CARDS */
-.card-img-wrap:hover{
+.card img:hover{
   filter: brightness(50%);
 }
 /* Added height for having equal height CARDS*/
 .card{
   border-bottom: 4px solid green;
-  height:95%;
+  height:93%;
 }
 /* Added onHover style to CARDS */
 .card:hover{
   border-left: 1px green solid;
   border-right: 1px green solid;
 }
-
+.card-title:hover{
+  text-decoration: underline;
+}
 /* Removing default anchor styles from CARDS*/
 #courses a{
   color:black;

@@ -12,11 +12,14 @@ h2{
   text-align: center;
 }
 /* Footer styles */
-footer,footer a{
+footer{
+  padding-top:1rem;
   background-color: black;
   color:white;
+  box-shadow: 0px -8px 5px rgb(100,100,100);
 }
 footer a{
+  background-color: black;
   font-weight: bold;
   color:white;
 }
@@ -31,6 +34,7 @@ footer a:hover{
   border-radius: none;
   box-shadow: 0px 8px 5px rgb(100,100,100);
 }
+/* buttons */
 .mybtns{
   border:1px white solid;
   color:white;
@@ -39,12 +43,19 @@ footer a:hover{
   color: black;
   background-color: white;
 }
-
+/* links */
+/* .mylinks{
+  color:rgb(100, 100, 100);
+}
+.mylinks:hover{
+  color:black;
+  text-decoration: underline;
+} */
 @media only screen and (min-width: 576px){
   h1{
-    font-size: 2rem;
+    font-size: 3rem;
   }
   h2{
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
 }
