@@ -18,22 +18,19 @@ section {
 }
 
 /* Adding onHover style to CARDS */
-.card img:hover {
-  filter: brightness(50%);
-}
-
 /* Added height for having equal height CARDS*/
 .card {
   width: 80%;
   margin: auto;
+  padding-bottom: 1rem;
   border-bottom: 4px solid black;
-  height: 93%;
+  height: 90%;
 }
 
 /* Added onHover style to CARDS */
 .card:hover {
-  border-left: 1px black solid;
-  border-right: 1px black solid;
+  border: 1px solid black;
+  border-bottom: 3px solid black;
 }
 
 /* Removing default anchor styles from CARDS*/
