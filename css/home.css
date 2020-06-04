@@ -46,6 +46,7 @@ section {
   margin: 2rem auto;
 }
 #programs img:hover {
+  filter: brightness(75%);
   border: 1px solid black;
 }
 

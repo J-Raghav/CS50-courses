@@ -24,6 +24,7 @@ footer {
 footer a {
   background-color: black;
   font-weight: bold;
+  padding: 0.5rem;
   color: white;
 }
 footer a:hover {
