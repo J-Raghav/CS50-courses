@@ -1,0 +1,53 @@
+a,a:hover{
+  color:black;
+  font-weight: 700;
+  text-decoration: underline;
+}
+a:hover{
+  color:rgb(150,150,150);
+}
+.jumbotron{
+  background-color:black;
+  color:white;
+  border-radius: none;
+  box-shadow: 0px 8px 5px rgb(100,100,100);
+}
+.jumbotron img{
+  max-width:378px;
+  max-height:212px;
+  margin:1rem auto;
+}
+.btn{
+  text-decoration: none;
+  font-weight: 200;
+  border:1px white solid;
+  color:white;
+}
+.btn:hover{
+  font-weight: 200;
+  color: black;
+  background-color: white;
+}
+h2{
+  margin:3rem auto;
+  font-weight: 100;
+}
+section{
+  margin:2rem auto;
+}
+.more{
+  margin-top:1rem;
+  border: 1px black solid;
+  background-color: black;
+  border-radius: 3px;
+  color: white;
+}
+.more:hover{
+  border: 1px black solid;
+  color:black;
+  background-color: white;
+}
+.profile-pic{
+  max-width: 110px;
+  border-radius: 50%;
+}

@@ -1,0 +1,12 @@
+.jumbotron{
+  background-color: black;
+  color:white;
+}
+.mybtns{
+  border:1px white solid;
+  color:white;
+}
+.mybtns:hover{
+  color: black;
+  background-color: white;
+}
