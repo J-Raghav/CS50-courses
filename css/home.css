@@ -36,10 +36,6 @@ section {
   border-right: 1px black solid;
 }
 
-.card-title:hover {
-  text-decoration: underline;
-}
-
 /* Removing default anchor styles from CARDS*/
 #courses a {
   color: black;
