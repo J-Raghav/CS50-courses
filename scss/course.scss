@@ -1,0 +1,39 @@
+$color-primary: black;
+$color-secondary:white;
+
+section{
+  margin:2rem auto;
+}
+
+.jumbotron img{
+  max-width:378px;
+  max-height:212px;
+  margin:1rem auto;
+}
+
+
+/* button STYLE */
+.btn-more{
+  margin-top:1rem;
+  border: 1px $color-primary solid;
+  background-color: $color-primary;
+  border-radius: 3px;
+  color: $color-secondary;
+}
+/* button onHover STYLE */
+.btn-more:hover{
+  border: 1px $color-primary solid;
+  color:$color-primary;
+  background-color: $color-secondary;
+}
+
+.profile-pic{
+  max-width: 110px;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 992px){
+  .order{
+    order:2;
+  }
+}
