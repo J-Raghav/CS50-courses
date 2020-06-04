@@ -1,36 +1,38 @@
-section{
-  margin:2rem auto;
+section {
+  margin: 2rem auto;
 }
 
-.jumbotron img{
-  max-width:378px;
-  max-height:212px;
-  margin:1rem auto;
+.jumbotron img {
+  max-width: 378px;
+  max-height: 212px;
+  margin: 1rem auto;
 }
-
 
 /* button STYLE */
-.btn-more{
-  margin-top:1rem;
+.btn-more {
+  margin-top: 1rem;
   border: 1px black solid;
   background-color: black;
   border-radius: 3px;
   color: white;
 }
+
 /* button onHover STYLE */
-.btn-more:hover{
+.btn-more:hover {
   border: 1px black solid;
-  color:black;
+  color: black;
   background-color: white;
 }
 
-.profile-pic{
+.profile-pic {
   max-width: 110px;
   border-radius: 50%;
 }
 
-@media only screen and (max-width: 992px){
-  .order{
-    order:2;
+@media only screen and (max-width: 992px) {
+  .order {
+    order: 2;
   }
 }
+
+/*# sourceMappingURL=course.css.map */
