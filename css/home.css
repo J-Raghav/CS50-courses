@@ -1,0 +1,50 @@
+.card{
+  width:80%;
+  margin:auto;
+}
+iframe{
+  max-width: 992px;
+  width:100%;
+}
+
+hr{
+  background-color:white;
+}
+/* Main sections COURSES and ABOUT */
+section{
+  margin:6rem auto;
+}
+.section-separator{
+  width: 50%;
+  background-color:gray;
+}
+/* Adding onHover style to CARDS */
+.card-img-wrap:hover{
+  filter: brightness(50%);
+}
+/* Added height for having equal height CARDS*/
+.card{
+  border-bottom: 4px solid green;
+  height:95%;
+}
+/* Added onHover style to CARDS */
+.card:hover{
+  border-left: 1px green solid;
+  border-right: 1px green solid;
+}
+
+/* Removing default anchor styles from CARDS*/
+#courses a{
+  color:black;
+}
+#courses a:hover{
+  color:black;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 576px){
+  iframe{
+    width:100%;
+    margin-top:1rem;
+  }
+}
