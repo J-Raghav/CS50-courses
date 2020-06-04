@@ -5,17 +5,17 @@ Web Programming with Python and JavaScript
 In these project I tried to create replica's of CS50 course pages on EdX.
 
 ##Project structure
-
-  project0 ( main directory ) <br>
-  | <br>
-  |-- scss  ( contains scss files ) <br>
-  |-- css   ( contains css files )  <br>
-  |-- html <br>
-      |-- ( contains html files of each course page ) <br>
-  |-- imgs <br>
-      |-- ( contains image files required ) <br>
-  | <br>
-  |-- index.html ( main html file home page ) <br>
+- project0 ( main directory )
+  - scss  ( contains scss files )
+  - css   ( contains css files)
+    - master.css ( css file containing base style )
+    - home.css   ( css file containing style for home page )
+    - course.css ( css file containing style for course pages )
+  - html
+    - ( contains html files of each course page ) 
+  - imgs
+    - ( contains image files required )
+  - index.html ( main html file home page )
 
 ## Bootstrap
 
@@ -36,7 +36,7 @@ List of some __SASS__ features used in project:- <br>
 ## Media Query
 
 List of some __Media Query__ applications in project:- <br>
-  1. In **master.css** for changing font size for mobile devices.
-  2. In **course.css** for changing order of rendering 2 main columns of page.   
-  3. In **home.css** for making iframe responsive.
+  1. In *master.css* for changing font size for mobile devices.
+  2. In *course.css* for changing order of rendering 2 main columns of page.   
+  3. In *home.css* for making iframe responsive.
 
