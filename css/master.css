@@ -16,6 +16,7 @@ h2 {
 
 /* Footer styles */
 footer {
+  margin-top: 3rem;
   padding-top: 1rem;
   background-color: black;
   color: white;
@@ -62,7 +63,7 @@ footer a:hover {
   text-decoration: underline;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 768px) {
   h1 {
     font-size: 3rem;
   }
