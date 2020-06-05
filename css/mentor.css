@@ -1,0 +1,37 @@
+#profile {
+  border-radius: 50%;
+}
+
+p {
+  font-weight: 400;
+}
+
+#featured a {
+  color: black;
+  text-decoration: none;
+}
+
+.container-fluid {
+  height: 40vh;
+  background-color: black;
+  margin-bottom: 0px;
+}
+
+#main-col {
+  margin-top: -55px;
+}
+
+.card {
+  margin: 1rem auto;
+  height: 90%;
+}
+
+.card:hover {
+  filter: brightness(75%);
+}
+
+.professional {
+  border: 1px solid black;
+}
+
+/*# sourceMappingURL=mentor.css.map */
