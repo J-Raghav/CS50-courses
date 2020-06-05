@@ -6,16 +6,33 @@ In these project I tried to create replica's of CS50 course pages on EdX.
 
 ## Project structure
 - project0 ( main directory )
-  - scss  ( contains scss files )
-  - css   ( contains css files)
-    - master.css ( css file containing base style )
-    - home.css   ( css file containing style for home page )
-    - course.css ( css file containing style for course pages )
-  - html
-    - ( contains html files of each course page )
+  - __SCSS__  ( contains __SCSS__ files )
+  - CSS   ( contains CSS files)
+    - _master.css_ ( CSS file containing base style )
+    - _home.css_   ( CSS file containing style for home page )
+    - _course.css_ ( CSS file containing style for course pages )
+    - _mentor.css_ ( CSS file containing style for mentor pages )
+  - courses
+    - ( contains __HTML__ files of each course page )
+  - mentors
+    - ( contains __HTML__ files of each mentor page )
   - imgs
     - ( contains image files required )
-  - index.html ( main html file home page )
+  - _index.html_ ( main __HTML__ file home page )
+
+## Relationships In Project
+
+  ### Internal links
+
+  - _project0/index.html_ contains link to
+    - __Courses__  ( _project0/courses/ \*.html_ ) pages  
+  - _project0/courses/\*.html_ contains link to
+    - __Home__     ( _project0/index.html_ )
+    - __Mentors__  ( _project0/mentors/\*.html_ )
+  - _project0/mentors/\*.html_ contains link to
+    - __Courses__  ( _project0/courses/ \*.html_ )
+    - __Home__     ( _project0/index.html_ )
+
 
 ## Bootstrap
 
@@ -36,6 +53,6 @@ List of some __SASS__ features used in project:- <br>
 ## Media Query
 
 List of some __Media Query__ applications in project:- <br>
-  1. In *master.css* for changing font size for mobile devices.
-  2. In *course.css* for changing order of rendering 2 main columns of page.   
-  3. In *home.css* for making iframe responsive.
+  1. In _master.css_ for changing font size for mobile devices.
+  2. In _course.css_ for changing order of rendering 2 main columns of page.   
+  3. In _home.css_ for making iframe responsive.
