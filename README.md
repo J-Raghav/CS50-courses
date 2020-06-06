@@ -20,23 +20,26 @@ In these project I tried to create replica's of CS50 course pages on EdX.
     - ( contains image files required )
   - _index.html_   ( main __HTML__ file home page )
   - _connect.html_ ( connect with cs50 __HTML__ file )
+  - __README.md__
+
+  
 ## Relationships In Project
 
   ### Internal links
 
   - ***project0/index.html*** contains link to
-    - __Courses__  ( ***project0/courses/ \*.html*** ) pages  
-    - __Connect__  ( ***project0.connect.html*** )
+    - _Courses_  ( ***project0/courses/ \*.html*** ) pages  
+    - _Connect_  ( ***project0.connect.html*** )
   - ***project0/courses/\*.html*** contains link to
-    - __Home__     ( ***project0/index.html*** )
-    - __Mentors__  ( ***project0/mentors/\*.html*** )
-    - __Connect__  ( ***project0.connect.html*** )
+    - _Home_    ( ***project0/index.html*** )
+    - _Mentors_  ( ***project0/mentors/\*.html*** )
+    - _Connect_  ( ***project0.connect.html*** )
   - ***project0/mentors/\*.html*** contains link to
-    - __Courses__  ( ***project0/courses/ \*.html*** )
-    - __Home__     ( ***project0/index.html*** )
-    - __Connect__  ( ***project0.connect.html*** )
+    - _Courses_  ( ***project0/courses/ \*.html*** )
+    - _Home__     ( ***project0/index.html*** )
+    - _Connect_  ( ***project0.connect.html*** )
   - ***project0/connect.html*** contains link to
-    - __Home__     ( ***project0/index.html*** )
+    - _Home_     ( ***project0/index.html*** )
 
 
 ## Bootstrap
@@ -54,7 +57,7 @@ List of some __SASS__ features used in project:- <br>
   1. SASS Variables ( only 2 for colors )
   2. SASS Nesting
   3. SASS Inheritance
-  4. SASS Modules
+  4. SASS Modules  ( _master.css_ )
 
 ## Media Query
 
