@@ -8,7 +8,7 @@ In these project I tried to create replica's of CS50 course pages on EdX.
 - project0 ( main directory )
   - __SCSS__  ( contains __SCSS__ files )
   - CSS   ( contains CSS files)
-    - _master.css_ ( CSS file containing base style )
+    - _master.css_ ( CSS file containing base style and imported by other styles using __SASS__ )
     - _home.css_   ( CSS file containing style for home page )
     - _course.css_ ( CSS file containing style for course pages )
     - _mentor.css_ ( CSS file containing style for mentor pages )
@@ -18,20 +18,25 @@ In these project I tried to create replica's of CS50 course pages on EdX.
     - ( contains __HTML__ files of each mentor page )
   - imgs
     - ( contains image files required )
-  - _index.html_ ( main __HTML__ file home page )
-
+  - _index.html_   ( main __HTML__ file home page )
+  - _connect.html_ ( connect with cs50 __HTML__ file )
 ## Relationships In Project
 
   ### Internal links
 
-  - _project0/index.html_ contains link to
-    - __Courses__  ( _project0/courses/ \*.html_ ) pages  
-  - _project0/courses/\*.html_ contains link to
-    - __Home__     ( _project0/index.html_ )
-    - __Mentors__  ( _project0/mentors/\*.html_ )
-  - _project0/mentors/\*.html_ contains link to
-    - __Courses__  ( _project0/courses/ \*.html_ )
-    - __Home__     ( _project0/index.html_ )
+  - ***project0/index.html*** contains link to
+    - __Courses__  ( ***project0/courses/ \*.html*** ) pages  
+    - __Connect__  ( ***project0.connect.html*** )
+  - ***project0/courses/\*.html*** contains link to
+    - __Home__     ( ***project0/index.html*** )
+    - __Mentors__  ( ***project0/mentors/\*.html*** )
+    - __Connect__  ( ***project0.connect.html*** )
+  - ***project0/mentors/\*.html*** contains link to
+    - __Courses__  ( ***project0/courses/ \*.html*** )
+    - __Home__     ( ***project0/index.html*** )
+    - __Connect__  ( ***project0.connect.html*** )
+  - ***project0/connect.html*** contains link to
+    - __Home__     ( ***project0/index.html*** )
 
 
 ## Bootstrap
@@ -49,6 +54,7 @@ List of some __SASS__ features used in project:- <br>
   1. SASS Variables ( only 2 for colors )
   2. SASS Nesting
   3. SASS Inheritance
+  4. SASS Modules
 
 ## Media Query
 
