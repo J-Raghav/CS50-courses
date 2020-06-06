@@ -1,5 +1,4 @@
-$color-primary : black;
-$color-secondary : white;
+@use 'master';
 
 #profile{
   border-radius: 50%;
@@ -10,13 +9,13 @@ p{
 }
 
 #featured a{
-  color:$color-primary;
+  color:black;
   text-decoration: none;
 }
 
 .banner{
   height:40vh;
-  background-color: $color-primary;
+  background-color: master.$color-primary;
   margin-bottom: 0px;
 }
 
@@ -30,9 +29,13 @@ p{
 }
 
 .card:hover{
-  filter: brightness(75%);
+  p{
+    color:master.$color-secondary;
+  }
+  background-color: master.$color-primary;
+  opacity: .5
 }
 
 .professional{
-  border:1px solid $color-primary;
+  border:1px solid master.$color-primary;
 }

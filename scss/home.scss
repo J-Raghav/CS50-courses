@@ -1,5 +1,4 @@
-$color-primary: black;
-$color-secondary:white;
+@use 'master';
 
 iframe{
   max-width: 992px;
@@ -7,7 +6,7 @@ iframe{
 }
 
 hr{
-  background-color:$color-secondary;
+  background-color:master.$color-secondary;
 }
 /* Main sections COURSES and ABOUT */
 section{
@@ -15,30 +14,30 @@ section{
 }
 .section-separator{
   width: 50%;
-  background-color:gray;
+  background-color:master.$shadow-color;
 }
 /* Adding onHover style to CARDS */
-// .card img:hover{
-//   filter: brightness(50%);
-// }
+.card img:hover{
+  filter: brightness(75%);
+}
 /* Added height for having equal height CARDS*/
 .card{
   width:80%;
   margin:auto;
   padding-bottom: 1rem;
-  border-bottom: 4px solid $color-primary;
+  border-bottom: 4px solid master.$color-primary;
   height:90%;
 }
 /* Added onHover style to CARDS */
 .card:hover{
-  border: 1px  solid $color-primary;
-  border-bottom: 3px solid $color-primary;
+  border: 1px  solid master.$color-primary;
+  border-bottom: 3px solid master.$color-primary;
 }
 
 /* Removing default anchor styles from CARDS*/
 #courses {
   a{
-    color:$color-primary;
+    color:black;
   }
   a:hover{
     text-decoration: none;
@@ -52,7 +51,7 @@ section{
   }
   img:hover{
     filter: brightness(75%);
-    border:1px solid $color-primary;
+    border:1px solid master.$color-primary;
   }
 }
 @media only screen and (min-width: 576px){

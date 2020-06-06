@@ -1,5 +1,4 @@
-$color-primary: black;
-$color-secondary:white;
+@use 'master';
 
 section{
   margin:2rem auto;
@@ -15,16 +14,16 @@ section{
 /* button STYLE */
 .btn-more{
   margin-top:1rem;
-  border: 1px $color-primary solid;
-  background-color: $color-primary;
+  border: 1px master.$color-primary solid;
+  background-color: master.$color-primary;
   border-radius: 3px;
-  color: $color-secondary;
+  color: master.$color-secondary;
 }
 /* button onHover STYLE */
 .btn-more:hover{
-  border: 1px $color-primary solid;
-  color:$color-primary;
-  background-color: $color-secondary;
+  border: 1px master.$color-primary solid;
+  color:master.$color-primary;
+  background-color: master.$color-secondary;
 }
 
 .profile-pic{

@@ -1,3 +1,84 @@
+h2, h1 {
+  font-weight: 400;
+  margin: 3rem auto;
+}
+
+/* Headings */
+h1 {
+  font-size: 2rem;
+  text-align: left;
+}
+
+h2 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+section p {
+  color: black;
+}
+section h1, section h2, section th {
+  color: #483D8B;
+}
+
+/* Footer styles */
+footer {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  background-color: #483D8B;
+  color: white;
+  box-shadow: 0px -8px 5px rgba(72, 61, 139, 0.5);
+}
+footer a {
+  font-weight: bold;
+  margin: 2rem auto;
+  padding: 0.3rem;
+  color: white;
+}
+footer a:hover {
+  color: #483D8B;
+  background-color: white;
+}
+
+.jumbotron {
+  background-color: #483D8B;
+  color: white;
+  border-radius: none;
+  box-shadow: 0px 8px 5px rgba(72, 61, 139, 0.5);
+}
+
+/* buttons */
+.mybtns {
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  border: 1px white solid;
+  color: white;
+}
+
+.mybtns:hover {
+  color: #483D8B;
+  background-color: white;
+}
+
+/* links */
+.mylinks {
+  color: #483D8B;
+  text-decoration: underline dotted #483D8B;
+}
+
+.mylinks:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+}
 section {
   margin: 2rem auto;
 }
@@ -11,16 +92,16 @@ section {
 /* button STYLE */
 .btn-more {
   margin-top: 1rem;
-  border: 1px black solid;
-  background-color: black;
+  border: 1px #483D8B solid;
+  background-color: #483D8B;
   border-radius: 3px;
   color: white;
 }
 
 /* button onHover STYLE */
 .btn-more:hover {
-  border: 1px black solid;
-  color: black;
+  border: 1px #483D8B solid;
+  color: #483D8B;
   background-color: white;
 }
 
